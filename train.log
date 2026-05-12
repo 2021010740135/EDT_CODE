@@ -1,0 +1,94 @@
+nohup: 忽略输入
+2026-05-12 12:05:29,877 - INFO - ================================================================================
+2026-05-12 12:05:29,877 - INFO - 🚀 启动 Phase 3: Diffusion Manifold Learning
+2026-05-12 12:05:29,877 - INFO - 目标重构: x_log | 物理条件: x_mm + mask
+2026-05-12 12:05:29,877 - INFO - 策略: 短周期扩散预训练 | 保存全局最优检查点与定期快照
+2026-05-12 12:05:29,877 - INFO - ================================================================================
+2026-05-12 12:09:33,770 - INFO - [Train] Epoch 001: loss = 0.019304
+2026-05-12 12:09:42,781 - INFO - [Diff-Val(Test-Normal)] Epoch 001 (Deterministic): loss = 0.007187
+2026-05-12 12:09:42,852 - INFO - 🌟 发现当前最优扩散模型 (Epoch 1) | 验证集损失: 0.007187 | 已保存为: best_diffusion_epoch_001_raw.pth
+2026-05-12 12:12:33,486 - INFO - [Train] Epoch 002: loss = 0.007488
+2026-05-12 12:12:41,640 - INFO - [Diff-Val(Test-Normal)] Epoch 002 (Deterministic): loss = 0.006093
+2026-05-12 12:12:41,717 - INFO - 🌟 发现当前最优扩散模型 (Epoch 2) | 验证集损失: 0.006093 | 已保存为: best_diffusion_epoch_002_raw.pth
+2026-05-12 12:15:13,776 - INFO - [Train] Epoch 003: loss = 0.006596
+2026-05-12 12:15:21,669 - INFO - [Diff-Val(Test-Normal)] Epoch 003 (Deterministic): loss = 0.005871
+2026-05-12 12:15:21,747 - INFO - 🌟 发现当前最优扩散模型 (Epoch 3) | 验证集损失: 0.005871 | 已保存为: best_diffusion_epoch_003_raw.pth
+2026-05-12 12:17:53,081 - INFO - [Train] Epoch 004: loss = 0.006158
+2026-05-12 12:18:03,232 - INFO - [Diff-Val(Test-Normal)] Epoch 004 (Deterministic): loss = 0.005771
+2026-05-12 12:18:03,313 - INFO - 🌟 发现当前最优扩散模型 (Epoch 4) | 验证集损失: 0.005771 | 已保存为: best_diffusion_epoch_004_raw.pth
+2026-05-12 12:20:54,027 - INFO - [Train] Epoch 005: loss = 0.005716
+2026-05-12 12:21:02,065 - INFO - [Diff-Val(Test-Normal)] Epoch 005 (Deterministic): loss = 0.004862
+2026-05-12 12:21:02,136 - INFO - 🌟 发现当前最优扩散模型 (Epoch 5) | 验证集损失: 0.004862 | 已保存为: best_diffusion_epoch_005_raw.pth
+2026-05-12 12:23:43,455 - INFO - [Train] Epoch 006: loss = 0.005518
+2026-05-12 12:23:52,760 - INFO - [Diff-Val(Test-Normal)] Epoch 006 (Deterministic): loss = 0.005059
+2026-05-12 12:26:37,050 - INFO - [Train] Epoch 007: loss = 0.005270
+2026-05-12 12:26:44,897 - INFO - [Diff-Val(Test-Normal)] Epoch 007 (Deterministic): loss = 0.004872
+2026-05-12 12:29:33,978 - INFO - [Train] Epoch 008: loss = 0.005143
+2026-05-12 12:29:41,488 - INFO - [Diff-Val(Test-Normal)] Epoch 008 (Deterministic): loss = 0.005180
+2026-05-12 12:32:31,851 - INFO - [Train] Epoch 009: loss = 0.004864
+2026-05-12 12:32:40,194 - INFO - [Diff-Val(Test-Normal)] Epoch 009 (Deterministic): loss = 0.004853
+2026-05-12 12:32:40,265 - INFO - 🌟 发现当前最优扩散模型 (Epoch 9) | 验证集损失: 0.004853 | 已保存为: best_diffusion_epoch_009_raw.pth
+2026-05-12 12:35:30,890 - INFO - [Train] Epoch 010: loss = 0.004825
+2026-05-12 12:35:38,351 - INFO - [Diff-Val(Test-Normal)] Epoch 010 (Deterministic): loss = 0.004485
+2026-05-12 12:35:38,431 - INFO - 🌟 发现当前最优扩散模型 (Epoch 10) | 验证集损失: 0.004485 | 已保存为: best_diffusion_epoch_010_raw.pth
+2026-05-12 12:35:38,476 - INFO - 📸 保存定期快照 (Epoch 10) | 已保存为: snapshot_epoch_010_raw.pth
+2026-05-12 12:38:25,378 - INFO - [Train] Epoch 011: loss = 0.004682
+2026-05-12 12:38:34,079 - INFO - [Diff-Val(Test-Normal)] Epoch 011 (Deterministic): loss = 0.004462
+2026-05-12 12:38:34,150 - INFO - 🌟 发现当前最优扩散模型 (Epoch 11) | 验证集损失: 0.004462 | 已保存为: best_diffusion_epoch_011_raw.pth
+2026-05-12 12:41:06,285 - INFO - [Train] Epoch 012: loss = 0.004699
+2026-05-12 12:41:14,381 - INFO - [Diff-Val(Test-Normal)] Epoch 012 (Deterministic): loss = 0.004425
+2026-05-12 12:41:14,438 - INFO - 🌟 发现当前最优扩散模型 (Epoch 12) | 验证集损失: 0.004425 | 已保存为: best_diffusion_epoch_012_raw.pth
+2026-05-12 12:43:56,114 - INFO - [Train] Epoch 013: loss = 0.004472
+2026-05-12 12:44:04,892 - INFO - [Diff-Val(Test-Normal)] Epoch 013 (Deterministic): loss = 0.004540
+2026-05-12 12:46:50,108 - INFO - [Train] Epoch 014: loss = 0.004390
+2026-05-12 12:46:58,959 - INFO - [Diff-Val(Test-Normal)] Epoch 014 (Deterministic): loss = 0.004227
+2026-05-12 12:46:59,047 - INFO - 🌟 发现当前最优扩散模型 (Epoch 14) | 验证集损失: 0.004227 | 已保存为: best_diffusion_epoch_014_raw.pth
+2026-05-12 12:49:48,463 - INFO - [Train] Epoch 015: loss = 0.004396
+2026-05-12 12:49:56,784 - INFO - [Diff-Val(Test-Normal)] Epoch 015 (Deterministic): loss = 0.004222
+2026-05-12 12:49:56,855 - INFO - 🌟 发现当前最优扩散模型 (Epoch 15) | 验证集损失: 0.004222 | 已保存为: best_diffusion_epoch_015_raw.pth
+2026-05-12 12:52:42,058 - INFO - [Train] Epoch 016: loss = 0.004261
+2026-05-12 12:52:49,750 - INFO - [Diff-Val(Test-Normal)] Epoch 016 (Deterministic): loss = 0.003895
+2026-05-12 12:52:49,823 - INFO - 🌟 发现当前最优扩散模型 (Epoch 16) | 验证集损失: 0.003895 | 已保存为: best_diffusion_epoch_016_raw.pth
+2026-05-12 12:55:34,887 - INFO - [Train] Epoch 017: loss = 0.004225
+2026-05-12 12:55:42,796 - INFO - [Diff-Val(Test-Normal)] Epoch 017 (Deterministic): loss = 0.004041
+2026-05-12 12:58:27,281 - INFO - [Train] Epoch 018: loss = 0.004020
+2026-05-12 12:58:35,706 - INFO - [Diff-Val(Test-Normal)] Epoch 018 (Deterministic): loss = 0.003816
+2026-05-12 12:58:35,789 - INFO - 🌟 发现当前最优扩散模型 (Epoch 18) | 验证集损失: 0.003816 | 已保存为: best_diffusion_epoch_018_raw.pth
+2026-05-12 13:01:32,664 - INFO - [Train] Epoch 019: loss = 0.003986
+2026-05-12 13:01:40,556 - INFO - [Diff-Val(Test-Normal)] Epoch 019 (Deterministic): loss = 0.004221
+2026-05-12 13:04:28,000 - INFO - [Train] Epoch 020: loss = 0.003931
+2026-05-12 13:04:36,287 - INFO - [Diff-Val(Test-Normal)] Epoch 020 (Deterministic): loss = 0.003905
+2026-05-12 13:04:36,349 - INFO - 📸 保存定期快照 (Epoch 20) | 已保存为: snapshot_epoch_020_raw.pth
+2026-05-12 13:07:26,873 - INFO - [Train] Epoch 021: loss = 0.003934
+2026-05-12 13:07:34,756 - INFO - [Diff-Val(Test-Normal)] Epoch 021 (Deterministic): loss = 0.003814
+2026-05-12 13:07:34,833 - INFO - 🌟 发现当前最优扩散模型 (Epoch 21) | 验证集损失: 0.003814 | 已保存为: best_diffusion_epoch_021_raw.pth
+2026-05-12 13:10:24,409 - INFO - [Train] Epoch 022: loss = 0.003788
+2026-05-12 13:10:33,357 - INFO - [Diff-Val(Test-Normal)] Epoch 022 (Deterministic): loss = 0.003716
+2026-05-12 13:10:33,428 - INFO - 🌟 发现当前最优扩散模型 (Epoch 22) | 验证集损失: 0.003716 | 已保存为: best_diffusion_epoch_022_raw.pth
+2026-05-12 13:13:15,732 - INFO - [Train] Epoch 023: loss = 0.003807
+2026-05-12 13:13:24,498 - INFO - [Diff-Val(Test-Normal)] Epoch 023 (Deterministic): loss = 0.003580
+2026-05-12 13:13:24,574 - INFO - 🌟 发现当前最优扩散模型 (Epoch 23) | 验证集损失: 0.003580 | 已保存为: best_diffusion_epoch_023_raw.pth
+2026-05-12 13:15:58,928 - INFO - [Train] Epoch 024: loss = 0.003755
+2026-05-12 13:16:05,989 - INFO - [Diff-Val(Test-Normal)] Epoch 024 (Deterministic): loss = 0.003633
+2026-05-12 13:18:49,347 - INFO - [Train] Epoch 025: loss = 0.003636
+2026-05-12 13:18:57,672 - INFO - [Diff-Val(Test-Normal)] Epoch 025 (Deterministic): loss = 0.003526
+2026-05-12 13:18:57,730 - INFO - 🌟 发现当前最优扩散模型 (Epoch 25) | 验证集损失: 0.003526 | 已保存为: best_diffusion_epoch_025_raw.pth
+2026-05-12 13:21:44,498 - INFO - [Train] Epoch 026: loss = 0.003585
+2026-05-12 13:21:52,444 - INFO - [Diff-Val(Test-Normal)] Epoch 026 (Deterministic): loss = 0.003522
+2026-05-12 13:21:52,522 - INFO - 🌟 发现当前最优扩散模型 (Epoch 26) | 验证集损失: 0.003522 | 已保存为: best_diffusion_epoch_026_raw.pth
+2026-05-12 13:24:35,821 - INFO - [Train] Epoch 027: loss = 0.003673
+2026-05-12 13:24:43,632 - INFO - [Diff-Val(Test-Normal)] Epoch 027 (Deterministic): loss = 0.003446
+2026-05-12 13:24:43,702 - INFO - 🌟 发现当前最优扩散模型 (Epoch 27) | 验证集损失: 0.003446 | 已保存为: best_diffusion_epoch_027_raw.pth
+2026-05-12 13:27:19,968 - INFO - [Train] Epoch 028: loss = 0.003609
+2026-05-12 13:27:28,487 - INFO - [Diff-Val(Test-Normal)] Epoch 028 (Deterministic): loss = 0.003389
+2026-05-12 13:27:28,547 - INFO - 🌟 发现当前最优扩散模型 (Epoch 28) | 验证集损失: 0.003389 | 已保存为: best_diffusion_epoch_028_raw.pth
+2026-05-12 13:30:13,857 - INFO - [Train] Epoch 029: loss = 0.003552
+2026-05-12 13:30:21,799 - INFO - [Diff-Val(Test-Normal)] Epoch 029 (Deterministic): loss = 0.003345
+2026-05-12 13:30:21,872 - INFO - 🌟 发现当前最优扩散模型 (Epoch 29) | 验证集损失: 0.003345 | 已保存为: best_diffusion_epoch_029_raw.pth
+2026-05-12 13:33:05,132 - INFO - [Train] Epoch 030: loss = 0.003564
+2026-05-12 13:33:13,837 - INFO - [Diff-Val(Test-Normal)] Epoch 030 (Deterministic): loss = 0.003379
+2026-05-12 13:33:13,906 - INFO - 📸 保存定期快照 (Epoch 30) | 已保存为: snapshot_epoch_030_raw.pth
+2026-05-12 13:33:13,907 - INFO - ================================================================================
+2026-05-12 13:33:13,907 - INFO - ✅ 预训练任务圆满结束 (总耗时: 1.46 小时)
+2026-05-12 13:33:13,907 - INFO - 🏁 记录的最优验证集损失: 0.003345
+2026-05-12 13:33:13,907 - INFO - ================================================================================

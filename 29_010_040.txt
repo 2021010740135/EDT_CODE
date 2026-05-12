@@ -1,0 +1,67 @@
+(base) zbc@zzu-R8424-G12:~/WDCNN$ CUDA_VISIBLE_DEVICES=0 python BCE.py 
+================================================================================
+Initializing Late Fusion Ranker (Native Baseline + Pure Vanilla BCE)
+================================================================================
+Epoch 01/60 | Loss: 0.2898 | AUC: 0.7086 | MAP@100: 0.5175 | MAP@200: 0.4572 [SOTA Snapshot Saved]
+Epoch 02/60 | Loss: 0.2636 | AUC: 0.7433 | MAP@100: 0.5792 | MAP@200: 0.5371 [SOTA Snapshot Saved]
+Epoch 03/60 | Loss: 0.2531 | AUC: 0.7684 | MAP@100: 0.7876 | MAP@200: 0.7029 [SOTA Snapshot Saved]
+Epoch 04/60 | Loss: 0.2451 | AUC: 0.7779 | MAP@100: 0.8638 | MAP@200: 0.7916 [SOTA Snapshot Saved]
+Epoch 05/60 | Loss: 0.2396 | AUC: 0.7875 | MAP@100: 0.9157 | MAP@200: 0.8526 [SOTA Snapshot Saved]
+Epoch 06/60 | Loss: 0.2354 | AUC: 0.7968 | MAP@100: 0.9175 | MAP@200: 0.8405 
+Epoch 07/60 | Loss: 0.2309 | AUC: 0.8004 | MAP@100: 0.9206 | MAP@200: 0.8449 
+Epoch 08/60 | Loss: 0.2274 | AUC: 0.8102 | MAP@100: 0.9398 | MAP@200: 0.8926 [SOTA Snapshot Saved]
+Epoch 09/60 | Loss: 0.2234 | AUC: 0.8159 | MAP@100: 0.9619 | MAP@200: 0.9050 [SOTA Snapshot Saved]
+Epoch 10/60 | Loss: 0.2202 | AUC: 0.8203 | MAP@100: 0.9558 | MAP@200: 0.8974 
+Epoch 11/60 | Loss: 0.2176 | AUC: 0.8225 | MAP@100: 0.9632 | MAP@200: 0.9125 [SOTA Snapshot Saved]
+Epoch 12/60 | Loss: 0.2140 | AUC: 0.8287 | MAP@100: 0.9674 | MAP@200: 0.9197 [SOTA Snapshot Saved]
+Epoch 13/60 | Loss: 0.2121 | AUC: 0.8322 | MAP@100: 0.9774 | MAP@200: 0.9359 [SOTA Snapshot Saved]
+Epoch 14/60 | Loss: 0.2078 | AUC: 0.8341 | MAP@100: 0.9760 | MAP@200: 0.9337 
+Epoch 15/60 | Loss: 0.2046 | AUC: 0.8368 | MAP@100: 0.9789 | MAP@200: 0.9414 [SOTA Snapshot Saved]
+Epoch 16/60 | Loss: 0.2017 | AUC: 0.8343 | MAP@100: 0.9842 | MAP@200: 0.9454 [SOTA Snapshot Saved]
+Epoch 17/60 | Loss: 0.1969 | AUC: 0.8399 | MAP@100: 0.9853 | MAP@200: 0.9483 [SOTA Snapshot Saved]
+Epoch 18/60 | Loss: 0.1940 | AUC: 0.8399 | MAP@100: 0.9842 | MAP@200: 0.9478 
+Epoch 19/60 | Loss: 0.1917 | AUC: 0.8441 | MAP@100: 0.9771 | MAP@200: 0.9434 
+Epoch 20/60 | Loss: 0.1876 | AUC: 0.8451 | MAP@100: 0.9898 | MAP@200: 0.9599 [SOTA Snapshot Saved]
+Epoch 21/60 | Loss: 0.1840 | AUC: 0.8480 | MAP@100: 0.9888 | MAP@200: 0.9588 
+Epoch 22/60 | Loss: 0.1799 | AUC: 0.8472 | MAP@100: 0.9822 | MAP@200: 0.9532 
+Epoch 23/60 | Loss: 0.1771 | AUC: 0.8483 | MAP@100: 0.9891 | MAP@200: 0.9605 [SOTA Snapshot Saved]
+Epoch 24/60 | Loss: 0.1724 | AUC: 0.8502 | MAP@100: 0.9826 | MAP@200: 0.9550 
+Epoch 25/60 | Loss: 0.1694 | AUC: 0.8479 | MAP@100: 0.9846 | MAP@200: 0.9543 
+Epoch 26/60 | Loss: 0.1669 | AUC: 0.8500 | MAP@100: 0.9871 | MAP@200: 0.9578 
+Epoch 27/60 | Loss: 0.1637 | AUC: 0.8486 | MAP@100: 0.9883 | MAP@200: 0.9584 
+Epoch 28/60 | Loss: 0.1597 | AUC: 0.8499 | MAP@100: 0.9855 | MAP@200: 0.9550 
+Epoch 29/60 | Loss: 0.1552 | AUC: 0.8536 | MAP@100: 0.9883 | MAP@200: 0.9585 
+Epoch 30/60 | Loss: 0.1522 | AUC: 0.8515 | MAP@100: 0.9872 | MAP@200: 0.9573 
+Epoch 31/60 | Loss: 0.1503 | AUC: 0.8530 | MAP@100: 0.9861 | MAP@200: 0.9582 
+Epoch 32/60 | Loss: 0.1481 | AUC: 0.8538 | MAP@100: 0.9904 | MAP@200: 0.9610 [SOTA Snapshot Saved]
+Epoch 33/60 | Loss: 0.1429 | AUC: 0.8476 | MAP@100: 0.9915 | MAP@200: 0.9604 
+Epoch 34/60 | Loss: 0.1412 | AUC: 0.8530 | MAP@100: 0.9909 | MAP@200: 0.9578 
+Epoch 35/60 | Loss: 0.1386 | AUC: 0.8490 | MAP@100: 0.9924 | MAP@200: 0.9645 [SOTA Snapshot Saved]
+Epoch 36/60 | Loss: 0.1341 | AUC: 0.8490 | MAP@100: 0.9896 | MAP@200: 0.9597 
+Epoch 37/60 | Loss: 0.1322 | AUC: 0.8486 | MAP@100: 0.9940 | MAP@200: 0.9682 [SOTA Snapshot Saved]
+Epoch 38/60 | Loss: 0.1291 | AUC: 0.8485 | MAP@100: 0.9915 | MAP@200: 0.9645 
+Epoch 39/60 | Loss: 0.1285 | AUC: 0.8510 | MAP@100: 0.9876 | MAP@200: 0.9567 
+Epoch 40/60 | Loss: 0.1242 | AUC: 0.8509 | MAP@100: 0.9935 | MAP@200: 0.9669 
+Epoch 41/60 | Loss: 0.1240 | AUC: 0.8493 | MAP@100: 0.9914 | MAP@200: 0.9657 
+Epoch 42/60 | Loss: 0.1203 | AUC: 0.8473 | MAP@100: 0.9922 | MAP@200: 0.9656 
+Epoch 43/60 | Loss: 0.1193 | AUC: 0.8481 | MAP@100: 0.9910 | MAP@200: 0.9640 
+Epoch 44/60 | Loss: 0.1175 | AUC: 0.8478 | MAP@100: 0.9889 | MAP@200: 0.9580 
+Epoch 45/60 | Loss: 0.1168 | AUC: 0.8484 | MAP@100: 0.9895 | MAP@200: 0.9624 
+Epoch 46/60 | Loss: 0.1139 | AUC: 0.8501 | MAP@100: 0.9914 | MAP@200: 0.9661 
+Epoch 47/60 | Loss: 0.1128 | AUC: 0.8445 | MAP@100: 0.9880 | MAP@200: 0.9603 
+Epoch 48/60 | Loss: 0.1126 | AUC: 0.8472 | MAP@100: 0.9886 | MAP@200: 0.9583 
+Epoch 49/60 | Loss: 0.1113 | AUC: 0.8486 | MAP@100: 0.9902 | MAP@200: 0.9612 
+Epoch 50/60 | Loss: 0.1099 | AUC: 0.8486 | MAP@100: 0.9896 | MAP@200: 0.9618 
+Epoch 51/60 | Loss: 0.1096 | AUC: 0.8482 | MAP@100: 0.9895 | MAP@200: 0.9628 
+Epoch 52/60 | Loss: 0.1095 | AUC: 0.8477 | MAP@100: 0.9915 | MAP@200: 0.9647 
+Epoch 53/60 | Loss: 0.1070 | AUC: 0.8475 | MAP@100: 0.9904 | MAP@200: 0.9624 
+Epoch 54/60 | Loss: 0.1070 | AUC: 0.8477 | MAP@100: 0.9902 | MAP@200: 0.9624 
+Epoch 55/60 | Loss: 0.1071 | AUC: 0.8482 | MAP@100: 0.9904 | MAP@200: 0.9617 
+Epoch 56/60 | Loss: 0.1063 | AUC: 0.8475 | MAP@100: 0.9906 | MAP@200: 0.9623 
+Epoch 57/60 | Loss: 0.1053 | AUC: 0.8476 | MAP@100: 0.9906 | MAP@200: 0.9624 
+Epoch 58/60 | Loss: 0.1054 | AUC: 0.8476 | MAP@100: 0.9902 | MAP@200: 0.9621 
+Epoch 59/60 | Loss: 0.1058 | AUC: 0.8475 | MAP@100: 0.9903 | MAP@200: 0.9623 
+Epoch 60/60 | Loss: 0.1055 | AUC: 0.8475 | MAP@100: 0.9903 | MAP@200: 0.9624 
+================================================================================
+Training Complete. Optimal Fusion Model locked in: ./results_phase4_late_fusion_bce
+================================================================================
